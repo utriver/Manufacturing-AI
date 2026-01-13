@@ -6,7 +6,7 @@
 ---
 
 ## 📝 프로젝트 개요 (Project Overview)
-<img width="812" height="817" alt="image" src="https://github.com/user-attachments/assets/d1e3f3a5-795e-4369-b14a-ccc102970197" />
+<img width="512" height="517" alt="image" src="https://github.com/user-attachments/assets/d1e3f3a5-795e-4369-b14a-ccc102970197" />
 
 카테터 튜브 제조 시 수지 토출 각도의 정확한 추정은 제품의 품질과 안정성에 직결됩니다. 본 프로젝트는 영상 처리를 통해 토출 영역을 정밀하게 분할하고, 기존 **PCA(주성분 분석) 방식의 오작동 문제를 해결**하는 새로운 중심점 탐색 및 방향 보정 알고리즘을 제안하여 제조 정밀도를 혁신적으로 개선했습니다.
 
