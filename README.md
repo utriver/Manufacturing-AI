@@ -55,7 +55,11 @@
 ├── models/                 # Segmentation 학습 모델 아키텍처 및 가중치 파일
 ├── inference/              # 각도 추정 및 방향 보정 알고리즘 소스 코드
 └── notebooks/              # 학습 과정 및 성능 지표(mIOU) 확인용 Jupyter Notebook
-
+'''
 ## 💡 실행 방법 (Usage)
+* **설치 라이브러리:** 
+'''
+pip install numpy pandas pillow matplotlib tqdm albumentations segmentation-models-pytorch torch torchvision scikit-learn
+'''
 
   
