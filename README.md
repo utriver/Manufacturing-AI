@@ -51,10 +51,9 @@
 
 ## 📂 프로젝트 구조 (Structure)
 ```text
-├── data_preprocessing/      # 라벨링 데이터 및 마스크 이미지 생성 스크립트
-├── models/                 # Segmentation 학습 모델 아키텍처 및 가중치 파일
-├── inference/              # 각도 추정 및 방향 보정 알고리즘 소스 코드
-└── notebooks/              # 학습 과정 및 성능 지표(mIOU) 확인용 Jupyter Notebook
+├── model_best_unet_200.pth: 가중치 파일
+├── predictangle_Unet.py: mask추정 및 각도 추정
+├── train_3_unet.py: 분할 학습 모델
 ```
 ## 💡 실행 방법 (Usage)
 * **설치 라이브러리:** 
@@ -62,4 +61,6 @@
 pip install numpy pandas pillow matplotlib tqdm albumentations segmentation-models-pytorch torch torchvision scikit-learn
 ```
 
-  
+* **프로그램 실행**
+1. 학습 프로그램인  train_3_unet.py를 실행시키면 가중치 파일인 model_best_unet_200.pth이 생성
+2. predictangle_Unet.py를 실행시키면 예측각도에 대한 csv파일 생성 및 각 이미지 생성이 됨
